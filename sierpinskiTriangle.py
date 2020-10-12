@@ -1,6 +1,6 @@
 __author__ = 'nc'
 """
-file: turtleStar.py
+file: sierpinskiTriangle.py
 description:
 creates sierpinski triangle using while loop
 
@@ -97,9 +97,9 @@ def main():
     turtle.pendown()
 
     # draw_triangles_2(SIDE_LENGTH)
-    turtle.tracer(0, 0)
+    turtle.speed(0)
     turtle.pensize(2)
-    draw_triangles_rec(SIDE_LENGTH, 6)
+    draw_triangles_rec(SIDE_LENGTH, 5)
     turtle.mainloop()
 
 

@@ -47,7 +47,7 @@ def draw():
     screen = turtle.Screen()
     screen.bgcolor("black")
     turtle.title("Draw Star")
-    turtle.speed(8)
+    turtle.speed(9)
     turtle.penup()
     turtle.showturtle()
 
